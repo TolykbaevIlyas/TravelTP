@@ -28,7 +28,7 @@ const Header = (props) => {
                             <a href="/">Upcoming Package</a>
                         </li>
                     </div>
-                    <button className={c.headerButtonGet} onClick={() => setModalActive(true) }>Get in Touch</button> 
+                    <button className={c.headerButtonGet} onClick={() => setModalActive(!modalActive) }>Get in Touch</button> 
 
                     <ul className={`${c.serviceDown} ${isOpen ? `${c.active}` : ""}`}>
                         <div className={c.serviceDecor}> </div>
@@ -50,7 +50,7 @@ const Header = (props) => {
                     </ul>
                 </div>
             </div>
-            {/* <Modal active={modalActive} setActive={setModalActive}></Modal> */}
+            <Modal modalActive={modalActive} setModalActive={setModalActive}></Modal>
         </div>
         
     );

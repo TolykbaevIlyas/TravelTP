@@ -10,14 +10,38 @@
     justify-content: center;
     z-index: 99999;
     transform: scale(0);
-}
+    /* visibility:hidden; */
+} 
 
 .modal.active{
     transform: scale(1);
-}
+    /* visibility:hidden; */
+} 
 
 .modalInner{
     padding: 20px;
     border-radius: 20px;
     background-color: #fff;
+}
+
+.modalInner h2{
+    color: #181E4B;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 28.92px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.modalInner Button{
+    background-color: #DF6951;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 50px;
+    padding: 15px;
+    cursor: pointer;
 }
