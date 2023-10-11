@@ -1,0 +1,29 @@
+.CaregoryBlock{
+    padding-top: 100px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.categoryMainText{
+    text-align: center;
+    color:#DF6951;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+.categoryNextText{
+    margin-top: 20px;
+    color: #181E4B;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 50px;
+}
+
+.categoryItem{
+    display: flex;
+    justify-content: space-between;
+}

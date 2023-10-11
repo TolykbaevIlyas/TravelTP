@@ -1,0 +1,53 @@
+.NatureNCitiesBlock{
+    display: flex;
+    margin-top: 200px;
+    padding-bottom: 160px;
+}
+.NatureNCitiesItems{
+
+}
+
+.NatureNCitiesItems img{
+    width: 100%;
+    z-index: -999;
+}
+
+.NatureNCitiesText{
+    margin-top: -300px;
+    text-align: center;
+}
+
+.NatureNCitiesText h4{
+    color: #FFEFEC;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.NatureNCitiesText h2{
+    color: #FFF;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.042px; /* 142.085% */
+}
+
+.NatureNCitiesText button{
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16.716px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 10px 20px;
+
+
+}

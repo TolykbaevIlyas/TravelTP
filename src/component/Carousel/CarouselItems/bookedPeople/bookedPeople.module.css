@@ -1,0 +1,13 @@
+.bookedPeopleBlock{
+    margin-top: 30px;
+    display: flex;
+}
+
+.circles{
+    display: flex;
+}
+
+.bookedPText{
+    margin-top: 10px;
+    margin-left: 20px;
+}

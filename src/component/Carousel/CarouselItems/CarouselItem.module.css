@@ -1,0 +1,25 @@
+.CarouselItemImg{
+    background-image: url(../../../assets/img/homeBackGround.png);
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.homeMainBlock{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.mainText{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 38.506px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77.908px;
+    width: 700px;
+}

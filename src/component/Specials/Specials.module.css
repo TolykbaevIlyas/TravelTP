@@ -1,0 +1,93 @@
+
+.specialBlock{
+    padding-top: 150px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.specialBLockInner{
+    display: flex;
+}
+
+.imgBlock{
+    /* width: 100%; */
+}
+
+.mainImg{
+    /* width: 100px; */
+}
+
+
+.mainImgItem{
+    border-radius: 40% 40% 0 0 ;
+    width: 500px;
+}
+
+.bigCircleImgItem{
+    position: absolute;
+    margin-left: -600px;
+    border-radius: 100%;
+}
+
+.middleCircleImgItem{
+    position: absolute;
+    margin-left: -750px;
+    margin-top: 250px;
+    border-radius: 100%;
+}
+
+.littleCircleImgItem{
+    position: absolute;
+    margin-left: -450px;
+    margin-top: -80px;
+    border-radius: 100%;
+}
+
+.textBlock{
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.textBlock h4{
+    color: #DF6951;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.textBlock h2{
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.textBlock p{
+    color: var(--black, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.SpecialBtn{ 
+    background-color: #DF6951;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.5px;
+    border-radius: 10px;
+    height: 50px;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}

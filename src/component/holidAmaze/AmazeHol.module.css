@@ -1,0 +1,24 @@
+.imgAmazeHol{
+    position: absolute;
+    width: 100%;
+    z-index: -999;
+
+}
+
+.AmazeHolBlock h2{
+    color: #FFF;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 1;
+    padding-top: 100px;
+    padding-left: 200px;
+    width: 500px;
+}
+
+.AmazeHolSvg{
+    padding-left: 300px;
+    padding-bottom: 60px;
+}

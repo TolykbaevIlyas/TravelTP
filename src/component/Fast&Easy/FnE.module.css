@@ -1,0 +1,80 @@
+.FnEBlock{
+    padding-top: 200px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.FnEBlockInner{
+    display: flex;
+}
+
+.textBlock{
+
+}
+
+.textBlock h4{
+    color: #DF6951;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.textBlock h2{
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+    width: 500px;
+}
+
+.FneItems{
+    margin-top: 20px;
+}
+
+.FneItem{
+    display: flex;
+    margin-top: 30px;
+}
+
+.FneItemImg{
+    height: 100%;
+    margin-top: 10px;
+}
+
+.FneItemText{
+    margin-left: 10px;
+}
+
+.FneItemText h5{
+    color: var(--TEXT-CLR, #5E6282);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.FneItemText p{
+    color: var(--TEXT-CLR, #5E6282);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.imgBlock{
+
+}
+
+.imgBlockImg{
+    width: 800px;
+}

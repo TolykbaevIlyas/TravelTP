@@ -1,0 +1,23 @@
+.CaregoryItemBlock{
+    margin-top: 30px;
+    width: 170px;
+}
+
+.categoryItemImg{
+    padding: 10px 50px;
+}
+
+.categoryItemName{
+    color: var(--text-heading-color, #1E1D4C);
+    font-family: Poppins;
+    text-align: center;
+    font-size: 20px;    
+}
+
+.categoryItemText{
+    margin-top: 10px;
+    color: var(--TEXT-CLR, #5E6282);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+}

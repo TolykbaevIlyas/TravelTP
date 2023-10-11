@@ -1,0 +1,77 @@
+.PromotionBlock{
+    padding-top: 100px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.promotionBlockInner{
+    display: flex;
+}
+
+.PromotionText h4{
+    color: #DF6951;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.PromotionText h2{
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.PromotionText p{
+    color: var(--black, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.PromotionBtn{ 
+    background-color: #DF6951;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.5px;
+    border-radius: 10px;
+    height: 50px;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.PromotionItems{
+    display:flex;
+    margin-top: 100px;
+    position: absolute;
+}
+
+
+.item:not(:first-child){
+    margin-left: 10px;
+}
+
+.itemImg{
+    height: 200px;
+    z-index: -99;
+}
+
+.itemText{
+    position: absolute;
+    z-index: 1;
+    top:0;
+    border-radius: 46px;
+    background: linear-gradient(100deg, #FF7255 8.93%, #BA4E38 100%);
+    padding: 10px 20px;
+}

@@ -1,0 +1,10 @@
+.circleItem:not(:first-child){
+    margin-left: -20px;
+}
+
+.circleItemImg{
+    height: 40px;
+    clip-path: circle(50% at 50% 50%);
+    border: 3px solid #FFF;
+    border-radius: 50%;
+}

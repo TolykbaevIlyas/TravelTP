@@ -1,0 +1,5 @@
+.partnersBlock{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F7F7F7;
+}
